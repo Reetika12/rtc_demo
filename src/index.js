@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import App4 from './App4.1';
+import Rtm from './Rtm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div style={{ display: 'flex' }}>
+      <Rtm />
+    </div>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
